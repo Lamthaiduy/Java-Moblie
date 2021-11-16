@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Input Form"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <Spinner
+        android:id="@+id/propertyType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Property Type"
+        android:inputType="text"
+        tools:ignore="Autofill,HardcodedText" />
+
+    <EditText
+        android:id="@+id/bedRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Bed Room"
+        android:inputType="number"
+        tools:ignore="Autofill,HardcodedText" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/chooseDate"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Choose Date"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/rentPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Rent Price"
+        android:inputType="number"
+        tools:ignore="Autofill,HardcodedText" />
+
+    <Spinner
+        android:id="@+id/furnitureType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Furniture Type"
+        android:inputType="textPersonName"
+        tools:ignore="Autofill,HardcodedText" />
+
+    <EditText
+        android:id="@+id/note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Notes"
+        android:inputType="textMultiLine"
+        tools:ignore="Autofill,HardcodedText" />
+
+    <EditText
+        android:id="@+id/reporter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Reporter"
+        android:inputType="textPersonName"
+        tools:ignore="Autofill,HardcodedText" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
